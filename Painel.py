@@ -46,8 +46,8 @@ st.markdown(
 #-----------Importa base apenas para pegar a primeira e ultima linha----------------------------
 
 
-#df_periodo = pd.read_excel(r'C:\Painel de Resultados\base1.xlsx',thousands=".")
-df_periodo = pd.read_excel(r'C:\Painel de Resultados\base1.xlsx',thousands=".")
+
+df_periodo = pd.read_excel(r'base1.xlsx',thousands=".")
  #  # busca a primeira e utlima linha para montar mensagem de período 
 primeira_linha = df_periodo.iloc[0]
 ultima_linha = df_periodo.iloc[-1]
@@ -89,7 +89,7 @@ if opcao_select =="Loja 1":  ##### INICIO DA SEÇÃO 01################
      
      
      #-BLOCO 2 IMPORTAÇÃO DA BASE1---------------------------------------------------------------------------
-     df = pd.read_excel(r'C:\Painel de Resultados\base1.xlsx',thousands=".")
+     df = pd.read_excel(r'base1.xlsx',thousands=".")
      df_filtrado =df[['descricao','totvendas','totcompras','mes_resumido','mes_num']]     
     
      #-FIM DA BLOCO 2 --------------------------------------------------------------------------------------  
@@ -296,7 +296,7 @@ if opcao_select =="Loja 1":  ##### INICIO DA SEÇÃO 01################
        
 
     # importa base para formação do ranking
-    df_rankingLj1_Valor = pd.read_excel(r'C:\Painel de Resultados\top_100_itens.xlsx', thousands=".", index_col=None)
+    df_rankingLj1_Valor = pd.read_excel(r'top_100_itens.xlsx', thousands=".", index_col=None)
   
     
      
