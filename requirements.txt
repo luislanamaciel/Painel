@@ -1,0 +1,8 @@
+streamlit 
+Image
+pandas 
+matplotlib
+flask 
+plotly.express
+chardet
+locale
