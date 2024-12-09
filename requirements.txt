@@ -6,3 +6,4 @@ flask
 plotly.express
 chardet
 babel
+openpyxl
